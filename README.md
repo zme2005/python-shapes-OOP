@@ -1,15 +1,31 @@
-# python-shapes-OOP
-Project Description :
-This project demonstrates the fundamentals of Object-Oriented Programming (OOP) in Python through a simple geometric shapes calculator. It includes classes for Circle, Square, and Rectangle, all of which inherit from an abstract base class called Shape.
+# 🧠 Python OOP - Shapes Project
 
-The project highlights:
+This project demonstrates core Object-Oriented Programming concepts in Python through a simple geometric shapes calculator.
 
-Use of abstract base classes with @abstractmethod
+## 📌 Features
 
-Encapsulation using private attributes and setter/getter methods
+- ✅ Abstract Base Class Shape using abc.ABC
+- ✅ Individual classes for:
+  - Circle
+  - Square
+  - Rectangle
+- ✅ Encapsulation with private attributes
+- ✅ Setter & Getter methods
+- ✅ Input validation to prevent negative values
+- ✅ Polymorphism: handle all shapes in a single loop
+- ✅ Clear output formatting using f-strings
 
-Polymorphism, demonstrated through looping over different shape objects
+---
 
-A structured, modular codebase with each class in a separate file
+## 📂 Project Structure
 
-Input validation for preventing negative values
+python-shapes-oop/ ├── Main.py ├── Shape_File.py ├── Circle_File.py ├── Square_File.py └── Rectangle_File.py
+
+---
+
+## 🚀 How to Run
+
+Make sure you have Python 3 installed.
+
+```bash
+python Main.py
